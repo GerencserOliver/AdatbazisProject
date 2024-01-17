@@ -1,0 +1,2 @@
+# AdatbazisProject
+SZIASZTOK
