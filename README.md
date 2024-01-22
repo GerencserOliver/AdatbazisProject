@@ -40,6 +40,14 @@ A következő feladatok megoldásánál a lekérdezéseket és a jelentést a z�
 ---
 
 ## 2. feladat 
-> Kisfaludi Strobl Zsigmond alkotta a Budapesten, 1963-ban avatott egyetlen Csajkovszkijt
+Kisfaludi Strobl Zsigmond alkotta a Budapesten, 1963-ban avatott egyetlen Csajkovszkijt
 ábrázoló mellszobrot. Jegyezze be ezt a tényt a kapcsolat táblába! A feladat megoldásához
 nem szükséges lekérdezést készítenie. 
+
+---
+
+Az eredeti feladat: [Mellszobrok.pdf](http://informatika.fazekas.hu/wp-content/uploads/2023/02/Mellszobrok.pdf)
+<br>
+Csapattagok:
+- [Gehér Marcell](https://github.com/Geher-Marcell)
+- [Gerencsér Olivér](https://github.com/GerencserOliver)
