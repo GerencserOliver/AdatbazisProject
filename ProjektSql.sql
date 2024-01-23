@@ -33,7 +33,7 @@ ALTER TABLE kapcsolatok
 ALTER TABLE kapcsolatok
     ADD CONSTRAINT FK_kapcsolatok_alkoto FOREIGN KEY (alkotoId) REFERENCES alkotok(id);
 
-INSERT INTO alkotok(id, nev, nem, szulev, szulhely) VALUES
+INSERT INTO alkotok(id, nev, nem, szulEv, szulHely) VALUES
 ('1','Kurucz Imre','F','1946','Berettyóújfalu'),
 ('2','Farkas Aladár','F','1909','Újpest'),
 ('3','Poós László','F','1971',''),
