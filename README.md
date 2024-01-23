@@ -28,9 +28,10 @@ A következő feladatok megoldásánál a lekérdezéseket és a jelentést a z�
 - **hely**: A szobor felállítási helye (szöveg)
 - **avatas**: A szobor avatásának éve (szám). Néhány esetben hiányzik.
 - **rogzites**: Az adatbázisba rögzítés dátuma (dátum)
-#### 2. `kapcsolat` (szoborid, alkotoid)
-- **szoborid**: A szobor azonosítója (szám), ez a kulcs
-- **alkotoid**: Az alkotó azonosítója (szám), ez a kulcs
+#### 2. `kapcsolat` (id, szoborid, alkotoid)
+- **id**: A kapcsolat azonosítója (szám), ez a kulcs
+- **szoborid**: A szobor azonosítója (szám), ez egy idegenkulcs
+- **alkotoid**: Az alkotó azonosítója (szám), ez egy idegenkulcs
 #### 3. `alkoto` (id, nev, nem, szulev, szulhely)
 - **id**: Az alkotó azonosítója (szám), ez a kulcs
 - **nev**: Az alkotó neve (szöveg). Feltételezheti, hogy a nevek egyediek.
