@@ -5176,7 +5176,7 @@ INSERT INTO szobor VALUES
 ( 689,'Vidovszky Béla','Gyomaendrőd',2003,'2015-10-09'),
 ( 690,'Szent István','Székesfehérvár',1996,'2012-01-01'),
 ( 691,'Kós Károly','Debrecen',2006,'2014-10-03'),
-( 692,'O'sváth László','Zsarolyán',2000,'2017-12-01'),
+( 692,'Osváth László','Zsarolyán',2000,'2017-12-01'),
 ( 693,'Ráday Pál','Pécel',1982,'2011-02-08'),
 ( 694,'II. János Pál pápa','Szeged',2005,'2016-09-30'),
 ( 695,'Boros Ottó','Szolnok',2013,'2013-11-17'),
@@ -6663,7 +6663,7 @@ INSERT INTO szobor VALUES
 ( 2177,'Cserháti Sándor','Mosonmagyaróvár',1914,'2011-08-07'),
 ( 2178,'Batthyány-Strattmann László','Dunakiliti',2003,'2011-03-21'),
 ( 2179,'Mikoviny Sámuel','Tata',2005,'2010-01-27'),
-( 2180,'O'sváth Pál','Berettyóújfalu',2002,'2009-03-22'),
+( 2180,'Osváth Pál','Berettyóújfalu',2002,'2009-03-22'),
 ( 2181,'Deák Ferenc','Székesfehérvár',2003,'2012-10-31'),
 ( 2182,'Berzsenyi Dániel','Marcali',1970,'2009-02-16'),
 ( 2183,'Bokányi Dezső','Tatabánya',1984,'2009-09-22'),
@@ -7463,7 +7463,7 @@ INSERT INTO szobor VALUES
 ( 2978,'Szent István','Pannonhalma',1999,'2010-09-14'),
 ( 2979,'Dessewffy Arisztid','Nagykanizsa',2000,'2016-01-14'),
 ( 2980,'Bonfinius','Budapest',2009,'2009-01-16'),
-( 2981,'O'sváth Pál','Biharkeresztes',1999,'2009-05-04'),
+( 2981,'Osváth Pál','Biharkeresztes',1999,'2009-05-04'),
 ( 2982,'Kossuth Lajos','Ajka',1904,'2009-01-26'),
 ( 2983,'Szent-Györgyi Albert','Enying',1999,'2008-07-22'),
 ( 2984,'Berzsenyi Dániel','Szeged',1931,'2011-07-01'),
@@ -7884,4 +7884,3 @@ INSERT INTO szobor VALUES
 ( 3399,'Tarasz Sevcsenko','Zalaegerszeg',1986,'2012-05-03'),
 ( 3400,'Kálvin János','Alsóörs',2009,'2013-01-04'),
 ( 3401,'Jármai Károly','Kulcs',2015,'2016-06-28');
-ALTER TABLE `kapcsolat` ADD CONSTRAINT `kapcsolat_231`   FOREIGN KEY (`szoborid`)     REFERENCES `szobor` (`id`);ALTER TABLE `kapcsolat` ADD CONSTRAINT `kapcsolat_241`   FOREIGN KEY (`alkotoid`)     REFERENCES `alkoto` (`id`);
