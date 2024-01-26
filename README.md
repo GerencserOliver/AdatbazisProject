@@ -6,7 +6,7 @@ Gyűjtésükből a mellszobrok és alkotóik néhány adatával foglalkozik a fe
 
 ---
 ### Feladatok:
-[1. feladat](#1-készítsen-új-adatbázist-mellszobor-néven)<br>
+[1. feladat](#1-feladat)<br>
 [2. feladat](#2-feladat)
 
 
@@ -16,22 +16,20 @@ Gyűjtésükből a mellszobrok és alkotóik néhány adatával foglalkozik a fe
 A következő feladatok megoldásánál a lekérdezéseket és a jelentést a zárójelben olvasható néven mentse! Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek, felesleges mezőt ne jelenítsen meg! 
 
 ---
-## 1. Készítsen új adatbázist mellszobor néven!
-- Az UTF-8 kódolású szöveges állományokat (`szobor.txt`, `kapcsolat.txt`, `alkoto.txt`) importálja az adatbázisba a fájlnévvel azonos néven (szobor, kapcsolat, alkoto)!
-- Az állományok **első** sora a mezőneveket tartalmazza.
-- A létrehozás során állítsa be a megfelelő típusokat és az elsődleges kulcsokat!
+## 1. feladat
+Készítsen új adatbázist mellszobor néven! Az UTF-8 kódolású szöveges állományokat (`szobor.txt`, `kapcsolat.txt`, `alkoto.txt`) importálja az adatbázisba a fájlnévvel azonos néven (szobor, kapcsolat, alkoto)! Az állományok **első** sora a mezőneveket tartalmazza. A létrehozás során állítsa be a megfelelő típusokat és az elsődleges kulcsokat!
 
 ### Táblák:
-#### 1. `szobor` (id, szemely, hely, avatas, rogzites)
+#### 1. `szobrok` (id, szemely, hely, avatas, rogzites)
 - **id**: A szobor azonosítója (szám), ez a kulcs
 - **szemely**: Az ábrázolt személy neve (szöveg). Feltételezheti, hogy az egyező nevek ugyanazt a személyt jelölik.
 - **hely**: A szobor felállítási helye (szöveg)
 - **avatas**: A szobor avatásának éve (szám). Néhány esetben hiányzik.
 - **rogzites**: Az adatbázisba rögzítés dátuma (dátum)
-#### 2. `kapcsolat` (szoborid, alkotoid)
+#### 2. `kapcsolatok` (szoborid, alkotoid)
 - **szoborid**: A szobor azonosítója (szám), ez egy kulcs
 - **alkotoid**: Az alkotó azonosítója (szám), ez egy kulcs
-#### 3. `alkoto` (id, nev, nem, szulev, szulhely)
+#### 3. `alkotok` (id, nev, nem, szulev, szulhely)
 - **id**: Az alkotó azonosítója (szám), ez a kulcs
 - **nev**: Az alkotó neve (szöveg). Feltételezheti, hogy a nevek egyediek.
 - **nem**: Az alkotó neme (szöveg). Értéke a férfiak esetén F, nőknél N.
