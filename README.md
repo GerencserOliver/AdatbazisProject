@@ -46,6 +46,11 @@ Készítsen lekérdezést, amely megadja azt az 5 személyt, akiket a legtöbb s
 Jelenítse meg a megformált személy nevét és a darabszámot, a darabszám szerint csökkenő
 sorrendben! 
 
+## 4. feladat 
+Medgyessy Ferenc kétszeres Kossuth-díjas szobrász. Készítsen lekérdezést, amely
+megadja, hogy mellszobrai hol állnak, kit ábrázolnak és az alkotó hány éves korában avatták
+fel azokat!
+
 ---
 
 Az eredeti feladat: [Mellszobrok.pdf](http://informatika.fazekas.hu/wp-content/uploads/2023/02/Mellszobrok.pdf)
