@@ -5,12 +5,6 @@ szubjektív bemutatására vállalkozott egy független és önkéntes munkára 
 Gyűjtésükből a mellszobrok és alkotóik néhány adatával foglalkozik a feladat.
 
 ---
-### Feladatok:
-[1. feladat](#1-feladat)<br>
-[2. feladat](#2-feladat)
-
-
----
 
 > [!CAUTION]
 A következő feladatok megoldásánál a lekérdezéseket és a jelentést a zárójelben olvasható néven mentse! Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek, felesleges mezőt ne jelenítsen meg! 
@@ -35,6 +29,8 @@ Az adatbázis és a táblák létrehozásához és feltöltéséhez futtassa a `
 - **nem**: Az alkotó neme (szöveg). Értéke a férfiak esetén F, nőknél N.
 - **szulev**: Az alkotó születési éve (szám). Több esetben hiányzik.
 - **szulhely**: Az alkotó születési helye (szöveg). Több esetben hiányzik.
+
+![Kép a kapcsolatokról](Képkivágás.PNG)
 
 ## 2. feladat 
 Kisfaludi Strobl Zsigmond alkotta a Budapesten, 1963-ban avatott egyetlen Csajkovszkijt
