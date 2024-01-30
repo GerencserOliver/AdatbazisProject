@@ -29,12 +29,22 @@ WHERE hely LIKE 'Budapest'
 AND avatas = YEAR(rogzites);
 
 -- 7. feladat
-SELECT DISTINCT alkotok.nev, alkotok.szulhely FROM alkotok
+SELECT DISTINCT alkotok.nev, alkotok.szulhely 
+FROM alkotok
 INNER JOIN szobrok ON alkotok.szulhely = szobrok.hely
-WHERE (alkotok.szulev >= 1901 OR alkotok.szulev <= 1950)
-AND szobrok.hely NOT LIKE 'Budapest'
+WHERE alkotok.szulev BETWEEN 1901 AND 1950
+AND szobrok.hely IS NOT NULL
+AND szobrok.hely != 'Budapest';
 
 -- 8. feladat
 SELECT DISTINCT hely
-FROM szobor
+FROM szobrok
 WHERE szemely IN ('Erkel Ferenc', 'Liszt Ferenc');
+
+-- 9. feladat
+SELECT alkotok.nev, szobrok.avatas, szobrok.szemely
+FROM szobrok
+INNER JOIN kapcsolatok ON szoborId = kapcsolatok.alkotoId
+INNER JOIN alkotok ON alkotoId = alkotok.id
+GROUP BY nev
+ORDER BY avatas ASC
