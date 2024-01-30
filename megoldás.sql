@@ -27,3 +27,11 @@ WHERE (alkotok.szulEv IS NULL AND alkotok.szulHely IS NOT NULL) OR (alkotok.szul
 SELECT szobrok.szemely, szobrok.avatas FROM szobrok
 WHERE hely LIKE 'Budapest'
 AND avatas = YEAR(rogzites);
+
+-- 7. feladat
+SELECT DISTINCT alkotok.nev, alkotok.szulhely FROM alkotok
+INNER JOIN szobrok ON alkotok.szulhely = szobrok.hely
+WHERE (alkotok.szulev >= 1901 OR alkotok.szulev <= 1950)
+AND szobrok.hely NOT LIKE 'Budapest'
+
+-- 8. feladat
