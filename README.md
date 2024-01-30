@@ -17,7 +17,7 @@ A következő feladatok megoldásánál a lekérdezéseket és a jelentést a z�
 
 ---
 ## 1. feladat
-Készítsen új adatbázist mellszobor néven! Az UTF-8 kódolású szöveges állományokat (`szobor.txt`, `kapcsolat.txt`, `alkoto.txt`) importálja az adatbázisba a fájlnévvel azonos néven (szobor, kapcsolat, alkoto)! Az állományok **első** sora a mezőneveket tartalmazza. A létrehozás során állítsa be a megfelelő típusokat és az elsődleges kulcsokat!
+Az adatbázis és a táblák létrehozásához és feltöltéséhez futtassa a `feltolto.sql` fájlt. A megoldásokat a `megoldas.sql` fájlba végezze.
 
 ### Táblák:
 #### 1. `szobrok` (id, szemely, hely, avatas, rogzites)
