@@ -15,11 +15,11 @@ Az adatbázis és a táblák létrehozásához és feltöltéséhez futtassa a `
 
 ### Táblák:
 #### 1. `szobrok` (id, szemely, hely, avatas, rogzites)
-- **id**: A szobor azonosítója (szám), ez a kulcs
-- **szemely**: Az ábrázolt személy neve (szöveg). Feltételezheti, hogy az egyező nevek ugyanazt a személyt jelölik.
-- **hely**: A szobor felállítási helye (szöveg)
-- **avatas**: A szobor avatásának éve (szám). Néhány esetben hiányzik.
-- **rogzites**: Az adatbázisba rögzítés dátuma (dátum)
+| **Név**   |             id             |          szemely         |            hely            |          avatas         |             rogzites            |
+| --------- | -------------------------- | ------------------------ | -------------------------- | ----------------------- | ------------------------------- |
+| **Típus** |            int             |          string          |           string           |           int           |               date              |
+| **Leírás**| A szobor felállítási helye | Az ábrázolt személy neve | A szobor felállítási helye | A szobor avatásának éve |  Az adatbázisba rögzítés dátuma |
+| **Kulcs** |             ✔             |                           |                           |                          |                                 |
 #### 2. `kapcsolatok` (szoborid, alkotoid)
 - **szoborid**: A szobor azonosítója (szám), ez egy kulcs
 - **alkotoid**: Az alkotó azonosítója (szám), ez egy kulcs
