@@ -35,3 +35,6 @@ WHERE (alkotok.szulev >= 1901 OR alkotok.szulev <= 1950)
 AND szobrok.hely NOT LIKE 'Budapest'
 
 -- 8. feladat
+SELECT DISTINCT hely
+FROM szobor
+WHERE szemely IN ('Erkel Ferenc', 'Liszt Ferenc');
