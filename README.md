@@ -51,6 +51,32 @@ Medgyessy Ferenc kétszeres Kossuth-díjas szobrász. Készítsen lekérdezést,
 megadja, hogy mellszobrai hol állnak, kit ábrázolnak és az alkotó hány éves korában avatták
 fel azokat!
 
+## 5. feladat 
+Készítsen lekérdezést, amely megadja azon adatbázisban szereplő alkotók nevét, akiknek
+a születési évük és születési helyük közül csak az egyik ismert! 
+
+## 6. feladat 
+Készítsen lekérdezést, amely megadja, hogy mely budapesti szobrok adatai kerültek
+az adatbázisba az avatás évében! Az ábrázolt személy nevét és az avatás évét adja meg!
+
+## 7. feladat 
+Készítsen lekérdezést, amely megadja, hogy kik azok a múlt század első felében (1901 és
+1950 között, a határokat is beleértve) született alkotók, akiknek születési helyén van általuk
+készített szobor! Az alkotó neve és születési helye jelenjen meg, de mindenki csak egyszer!
+A budapesti alkotásokat ne vegye figyelembe!
+
+## 8. feladat 
+Mely településeken kapott mellszobrot „Erkel Ferenc” és „Liszt Ferenc” is? Egészítse ki
+az alábbi lekérdezést, úgy, hogy az válaszoljon az előbbi kérdésre! A teljes lekérdezést
+mentse!
+
+## 9. feladat 
+Készítsen jelentést a debreceni mellszobrokról! A szobrokat alkotó szerint csoportosítva,
+az avatás éve szerint növekvően rendezve jelenítse meg! A jelentés készítését lekérdezéssel
+készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a címet és a címkék
+megjelenítését vegye figyelembe! A jelentés formázásában a mintától eltérhet. (A használt
+szoftvertől függően a hiányzó avatási évszám helyett a 0 érték is megjelenhet.) 
+
 ---
 
 Az eredeti feladat: [Mellszobrok.pdf](http://informatika.fazekas.hu/wp-content/uploads/2023/02/Mellszobrok.pdf)
