@@ -41,6 +41,11 @@ Kisfaludi Strobl Zsigmond alkotta a Budapesten, 1963-ban avatott egyetlen Csajko
 ábrázoló mellszobrot. Jegyezze be ezt a tényt a kapcsolat táblába! A feladat megoldásához
 nem szükséges lekérdezést készítenie. 
 
+## 3. feladat 
+Készítsen lekérdezést, amely megadja azt az 5 személyt, akiket a legtöbb szobor ábrázol!
+Jelenítse meg a megformált személy nevét és a darabszámot, a darabszám szerint csökkenő
+sorrendben! 
+
 ---
 
 Az eredeti feladat: [Mellszobrok.pdf](http://informatika.fazekas.hu/wp-content/uploads/2023/02/Mellszobrok.pdf)
