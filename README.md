@@ -15,20 +15,29 @@ Az adatbázis és a táblák létrehozásához és feltöltéséhez futtassa a `
 
 ### Táblák:
 #### 1. `szobrok` (id, szemely, hely, avatas, rogzites)
-| **Név**   |             id             |          szemely         |            hely            |          avatas         |             rogzites            |
-| --------- | -------------------------- | ------------------------ | -------------------------- | ----------------------- | ------------------------------- |
-| **Típus** |            int             |          string          |           string           |           int           |               date              |
-| **Leírás**| A szobor felállítási helye | Az ábrázolt személy neve | A szobor felállítási helye | A szobor avatásának éve |  Az adatbázisba rögzítés dátuma |
-| **Kulcs** |             ✔             |                           |                           |                          |                                 |
+|Név|Típus|Leírás|Kulcs|
+|---|---|---|---|
+| id | int | A szobor azonosítója | ✔ |
+| szemely | string | Az ábrázolt személy neve ||
+| hely | string | A szobor felállítási helye ||
+| avatas | int | A szobor avatásának éve ||
+| rogzites | date | Az adatbázisba rögzítés dátuma ||
+
 #### 2. `kapcsolatok` (szoborid, alkotoid)
-- **szoborid**: A szobor azonosítója (szám), ez egy kulcs
-- **alkotoid**: Az alkotó azonosítója (szám), ez egy kulcs
+|Név|Típus|Leírás|Kulcs|
+|---|---|---|---|
+| szoborid | int | A szobor azonosítója | ✔ |
+| alkotoid | int | Az alkotó azonosítója | ✔ |
+
 #### 3. `alkotok` (id, nev, nem, szulev, szulhely)
-- **id**: Az alkotó azonosítója (szám), ez a kulcs
-- **nev**: Az alkotó neve (szöveg). Feltételezheti, hogy a nevek egyediek.
-- **nem**: Az alkotó neme (szöveg). Értéke a férfiak esetén F, nőknél N.
-- **szulev**: Az alkotó születési éve (szám). Több esetben hiányzik.
-- **szulhely**: Az alkotó születési helye (szöveg). Több esetben hiányzik.
+
+|Név|Típus|Leírás|Kulcs|
+|---|---|---|---|
+| id | int |  Az alkotó azonosítója | ✔ |
+| nev | string | Az alkotó neve  ||
+| nem | string | Az alkotó neme ||
+| szulev | int | Az alkotó születési éve ||
+| szulhely | string | Az alkotó születési helye ||
 
 ![Kép a kapcsolatokról](Képkivágás.PNG)
 
