@@ -23,11 +23,11 @@ Az adatbázis és a táblák létrehozásához és feltöltéséhez futtassa a `
 | avatas | int | A szobor avatásának éve ||
 | rogzites | date | Az adatbázisba rögzítés dátuma ||
 
-#### 2. `kapcsolatok` (szoborid, alkotoid)
+#### 2. `kapcsolatok` (szoborId, alkotoId)
 |Név|Típus|Leírás|Kulcs|
 |---|---|---|---|
-| szoborid | int | A szobor azonosítója | ✔ |
-| alkotoid | int | Az alkotó azonosítója | ✔ |
+| szoborId | int | A szobor azonosítója | ✔ |
+| alkotoId | int | Az alkotó azonosítója | ✔ |
 
 #### 3. `alkotok` (id, nev, nem, szulev, szulhely)
 
