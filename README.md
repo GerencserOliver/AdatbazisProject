@@ -39,7 +39,7 @@ A feladatok megoldására elkészített SQL parancsokat a `megoldas.sql` állom�
 | szulev | int | Az alkotó születési éve ||
 | szulhely | string | Az alkotó születési helye ||
 
-![Kép a kapcsolatokról](Képkivágás.PNG)
+![Kép a kapcsolatokról](diagram.PNG)
 
 ## 2. feladat 
 Kisfaludi Strobl Zsigmond alkotta a Budapesten, 1963-ban avatott egyetlen Csajkovszkijt
