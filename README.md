@@ -11,7 +11,7 @@ A következő feladatok megoldásánál a lekérdezéseket és a jelentést a z�
 
 ---
 ## 1. feladat
-Az adatbázis és a táblák létrehozásához és feltöltéséhez futtassa a `feltolto.sql` fájlt. A megoldásokat a `megoldas.sql` fájlba végezze.
+A feladatok megoldására elkészített SQL parancsokat a `megoldas.sql` állományba illessze be a feladatok végén zárójelben jelölt sor alá! A javítás során csak ennek az állománynak a tartalma lesz értékelve! Feladatok megoldása előtt futtassa a `feltolto.sql` fájlt.
 
 ### Táblák:
 #### 1. `szobrok` (id, szemely, hely, avatas, rogzites)
