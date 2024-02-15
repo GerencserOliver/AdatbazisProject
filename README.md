@@ -49,31 +49,37 @@ nem szükséges lekérdezést készítenie.
 ## 3. feladat 
 Készítsen lekérdezést, amely megadja azt az 5 személyt, akiket a legtöbb szobor ábrázol!
 Jelenítse meg a megformált személy nevét és a darabszámot, a darabszám szerint csökkenő
-sorrendben! 
+sorrendben!
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/600cf022-bef1-4d23-afd3-e74d11416b70)
 
 ## 4. feladat 
 Medgyessy Ferenc kétszeres Kossuth-díjas szobrász. Készítsen lekérdezést, amely
 megadja, hogy mellszobrai hol állnak, kit ábrázolnak és az alkotó hány éves korában avatták
 fel azokat!
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/55b66764-a0fb-42e0-8d14-f7d0da8bcaaf)
 
 ## 5. feladat 
 Készítsen lekérdezést, amely megadja azon adatbázisban szereplő alkotók nevét, akiknek
-a születési évük és születési helyük közül csak az egyik ismert! 
+a születési évük és születési helyük közül csak az egyik ismert!
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/340b448f-5491-468e-99de-5acf3fd546e5)
 
 ## 6. feladat 
 Készítsen lekérdezést, amely megadja, hogy mely budapesti szobrok adatai kerültek
 az adatbázisba az avatás évében! Az ábrázolt személy nevét és az avatás évét adja meg!
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/36228048-c263-42cf-99fd-f2060ded9d90)
 
 ## 7. feladat 
 Készítsen lekérdezést, amely megadja, hogy kik azok a múlt század első felében (1901 és
 1950 között, a határokat is beleértve) született alkotók, akiknek születési helyén van általuk
 készített szobor! Az alkotó neve és születési helye jelenjen meg, de mindenki csak egyszer!
 A budapesti alkotásokat ne vegye figyelembe!
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/3afc3ac8-1dd3-4b9d-aa3d-f53b7d8ba7d7)
 
 ## 8. feladat 
 Mely településeken kapott mellszobrot „Erkel Ferenc” és „Liszt Ferenc” is? Egészítse ki
 az alábbi lekérdezést, úgy, hogy az válaszoljon az előbbi kérdésre! A teljes lekérdezést
 mentse!
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/daeb2eb4-31fe-43ab-adf2-99c2484caac2)
 
 ## 9. feladat 
 Készítsen jelentést a debreceni mellszobrokról! A szobrokat alkotó szerint csoportosítva,
@@ -81,6 +87,7 @@ az avatás éve szerint növekvően rendezve jelenítse meg! A jelentés készí
 készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a címet és a címkék
 megjelenítését vegye figyelembe! A jelentés formázásában a mintától eltérhet. (A használt
 szoftvertől függően a hiányzó avatási évszám helyett a 0 érték is megjelenhet.) 
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/a1c4bfcd-0b58-479b-83d7-0bd8195e6370)
 
 ---
 
