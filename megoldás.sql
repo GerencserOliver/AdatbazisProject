@@ -19,7 +19,7 @@ VALUES(
 -- 6. feladat
 SELECT szemely, COUNT(*) AS darabszam FROM szobrok
 GROUP BY szemely
-ORDER BY darabszam
+ORDER BY darabszam DESC
 LIMIT 5;
 
 -- 7. feladat
