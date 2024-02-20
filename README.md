@@ -64,7 +64,7 @@ Készítsen lekérdezést, amely megadja azt az 5 személyt, akiket a legtöbb s
 Jelenítse meg a megformált személy nevét és a darabszámot, a darabszám szerint csökkenő
 sorrendben!
 
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/600cf022-bef1-4d23-afd3-e74d11416b70)
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/9d0c9e72-46a3-4662-b990-7fd728dae6e0)
 
 ## 7. feladat 
 Medgyessy Ferenc kétszeres Kossuth-díjas szobrász. Készítsen lekérdezést, amely
@@ -77,13 +77,13 @@ fel azokat!
 Készítsen lekérdezést, amely megadja azon adatbázisban szereplő alkotók nevét, akiknek
 a születési évük és születési helyük közül csak az egyik ismert!
 
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/340b448f-5491-468e-99de-5acf3fd546e5)
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/14b5158e-41cc-4dc3-bed0-56a8eadf244e)
 
 ## 9. feladat 
 Készítsen lekérdezést, amely megadja, hogy mely budapesti szobrok adatai kerültek
 az adatbázisba az avatás évében! Az ábrázolt személy nevét és az avatás évét adja meg!
 
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/36228048-c263-42cf-99fd-f2060ded9d90)
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/dc874032-b940-415a-9a56-045bac845bed)
 
 ## 10. feladat 
 Készítsen lekérdezést, amely megadja, hogy kik azok a múlt század első felében (1901 és
@@ -91,14 +91,14 @@ Készítsen lekérdezést, amely megadja, hogy kik azok a múlt század első fe
 készített szobor! Az alkotó neve és születési helye jelenjen meg, de mindenki csak egyszer!
 A budapesti alkotásokat ne vegye figyelembe!
 
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/3afc3ac8-1dd3-4b9d-aa3d-f53b7d8ba7d7)
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/1bab78c6-38f3-4eca-bffa-b9569fcc2449)
 
 ## 11. feladat 
 Mely településeken kapott mellszobrot „Erkel Ferenc” és „Liszt Ferenc” is? Egészítse ki
 az alábbi lekérdezést, úgy, hogy az válaszoljon az előbbi kérdésre! A teljes lekérdezést
 mentse!
 
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/daeb2eb4-31fe-43ab-adf2-99c2484caac2)
+![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/d3a59648-4433-4920-918e-178b85fff518)
 
 ## 12. feladat 
 Készítsen lekérdezést a debreceni mellszobrokról! A szobrokat alkotó szerint csoportosítva,
