@@ -7,11 +7,10 @@ Gyűjtésükből a mellszobrok és alkotóik néhány adatával foglalkozik a fe
 ---
 
 > [!CAUTION]
-A következő feladatok megoldásánál a lekérdezéseket és a jelentést a zárójelben olvasható néven mentse! Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek, felesleges mezőt ne jelenítsen meg! 
-
----
-## 1. feladat
-A feladatok megoldására elkészített SQL parancsokat a `megoldas.sql` állományba illessze be a feladatok végén zárójelben jelölt sor alá! A javítás során csak ennek az állománynak a tartalma lesz értékelve! Feladatok megoldása előtt futtassa a `feltolto.sql` fájlt.
+> A következő feladatok megoldásánál a lekérdezéseket a ***Vezetéknév-Keresztnév-Osztály_mellszobrok.sql*** néven mentse! <br>
+> Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek, felesleges mezőt ne jelenítsen meg! <br>
+> Feltételezheti, hogy a megadott nevek egyértelműen azonosítják a rekordokat! <br>
+> Feltételezheti, hogy a megoldások során nem alakul ki holtverseny!
 
 ### Táblák:
 #### 1. `szobrok` (id, szemely, hely, avatas, rogzites)
@@ -41,31 +40,24 @@ A feladatok megoldására elkészített SQL parancsokat a `megoldas.sql` állom�
 
 ![Kép a kapcsolatokról](diagram.PNG)
 
+# Feladatok:
+---
+## 1. feladat
+Feladatok megoldása előtt futtassa a `mellszobrok.sql` fájlt!
+
 ## 2. feladat
-Jegyezze be az alkotók táblába az 9999-ik helyre Nagy Ferencet, aki 1945-ben Tatabányán született férfi alkotó volt.
-
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/abf9459c-39c1-4111-ae11-f2986a91a8d7)
-
+Jegyezze be az alkotók táblába az `9999`.-ik helyre `Molnár Ferenc`-et, aki `1945`-ben `Tatabányán` született férfi alkotó volt.
 
 ## 3. feladat
-Frissítse az alkotók táblában az adatokat a következő adatokkal: Azonosító: 9999, új név: Nagy Ferenc.
-
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/d99279d5-114d-4c1d-8d50-73871ae408ee)
-
+A 9999. azonosítójú alkotó neve az előző feladatban rosszul lett megadva. Javítsa ki `Nagy Ferenc`-re a nevét.
 
 ## 4. feladat
-Törölje ki az alkotók táblából azt az adatot, melynek azonosítója 9999.
-
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/2c04e8a8-afaa-4091-93f0-42e2011b8235)
-
+A 9999. azonosítójú alkotó egy szélhámos volt. Törölje ki az alkotók táblából!
 
 ## 5. feladat 
 Kisfaludi Strobl Zsigmond alkotta a Budapesten, 1963-ban avatott egyetlen Csajkovszkijt
 ábrázoló mellszobrot. Jegyezze be ezt a tényt a kapcsolat táblába! A feladat megoldásához
 nem szükséges lekérdezést készítenie.
-
-![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/a31371f7-d931-4eaa-9b8e-fe6e36537162)
-
 
 ## 6. feladat 
 Készítsen lekérdezést, amely megadja azt az 5 személyt, akiket a legtöbb szobor ábrázol!
@@ -109,11 +101,9 @@ mentse!
 ![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/daeb2eb4-31fe-43ab-adf2-99c2484caac2)
 
 ## 12. feladat 
-Készítsen jelentést a debreceni mellszobrokról! A szobrokat alkotó szerint csoportosítva,
-az avatás éve szerint növekvően rendezve jelenítse meg! A jelentés készítését lekérdezéssel
-készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a címet és a címkék
-megjelenítését vegye figyelembe! A jelentés formázásában a mintától eltérhet. (A használt
-szoftvertől függően a hiányzó avatási évszám helyett a 0 érték is megjelenhet.) 
+Készítsen lekérdezést a debreceni mellszobrokról! A szobrokat alkotó szerint csoportosítva,
+az avatás éve szerint növekvően rendezve jelenítse meg! Az elkészítésekor a mezők sorrendjét, a címet és a címkék
+megjelenítését vegye figyelembe!
 
 ![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/a1c4bfcd-0b58-479b-83d7-0bd8195e6370)
 
