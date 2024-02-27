@@ -17,8 +17,8 @@ Gyűjtésükből a mellszobrok és alkotóik néhány adatával foglalkozik a fe
 |Név|Típus|Leírás|Kulcs|
 |---|---|---|---|
 | id | int | A szobor azonosítója | ✔ |
-| szemely | string | Az ábrázolt személy neve ||
-| hely | string | A szobor felállítási helye ||
+| szemely | varchar | Az ábrázolt személy neve ||
+| hely | varchar | A szobor felállítási helye ||
 | avatas | int | A szobor avatásának éve ||
 | rogzites | date | Az adatbázisba rögzítés dátuma ||
 
@@ -33,10 +33,10 @@ Gyűjtésükből a mellszobrok és alkotóik néhány adatával foglalkozik a fe
 |Név|Típus|Leírás|Kulcs|
 |---|---|---|---|
 | id | int |  Az alkotó azonosítója | ✔ |
-| nev | string | Az alkotó neve  ||
-| nem | string | Az alkotó neme ||
+| nev | varchar | Az alkotó neve  ||
+| nem | char | Az alkotó neme ||
 | szulev | int | Az alkotó születési éve ||
-| szulhely | string | Az alkotó születési helye ||
+| szulhely | varchar | Az alkotó születési helye ||
 
 ![Kép a kapcsolatokról](diagram.PNG)
 
