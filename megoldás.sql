@@ -51,9 +51,14 @@ FROM szobrok
 WHERE szemely IN ('Erkel Ferenc', 'Liszt Ferenc');
 
 -- 12. feladat
-SELECT alkotok.nev, szobrok.avatas, szobrok.szemely
-FROM szobrok
-INNER JOIN kapcsolatok ON szoborId = kapcsolatok.alkotoId
-INNER JOIN alkotok ON alkotoId = alkotok.id
+SELECT nev, COUNT(szemely) AS 'Szobrok száma', MIN(avatas) AS 'Első avatás éve'
+FROM kapcsolatok
+  INNER JOIN alkotok
+    ON kapcsolatok.alkotoId = alkotok.id
+  INNER JOIN szobrok
+    ON kapcsolatok.szoborId = szobrok.id
+WHERE hely='Debrecen' AND avatas IS NOT NULL
 GROUP BY nev
-ORDER BY avatas ASC
+HAVING Szobrok száma >= 5
+ORDER BY 'Szobrok száma' DESC
+LIMIT 3;
