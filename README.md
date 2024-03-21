@@ -94,16 +94,12 @@ A budapesti alkotásokat ne vegye figyelembe!
 ![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/1bab78c6-38f3-4eca-bffa-b9569fcc2449)
 
 ## 11. feladat 
-Mely településeken kapott mellszobrot „Erkel Ferenc” és „Liszt Ferenc” is? Egészítse ki
-az alábbi lekérdezést, úgy, hogy az válaszoljon az előbbi kérdésre! A teljes lekérdezést
-mentse!
+Mely településeken kapott mellszobrot „Erkel Ferenc” és „Liszt Ferenc” is?
 
 ![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/d3a59648-4433-4920-918e-178b85fff518)
 
 ## 12. feladat 
-Készítsen lekérdezést a debreceni mellszobrokról! A szobrokat alkotó szerint csoportosítva,
-az avatás éve szerint növekvően rendezve jelenítse meg! Az elkészítésekor a mezők sorrendjét, a címet és a címkék
-megjelenítését vegye figyelembe!
+Készítsen lekérdezést a debreceni mellszobor alkotókról, melyben megszámolja, hogy egyes alkótók mennyi szobrot csináltak és ez alapján csökkenő sorrendbe rendezi őket!
 
 ![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/a1c4bfcd-0b58-479b-83d7-0bd8195e6370)
 
