@@ -1,5 +1,3 @@
--- 1. feladat
-
 -- 2. feladat
 
 -- 3. feladat
