@@ -23,7 +23,7 @@ ORDER BY darabszam DESC
 LIMIT 5;
 
 -- 7. feladat
-SELECT szobrok.hely, szobrok.szemely, EXTRACT(YEAR FROM CURRENT_DATE) - szobrok.avatas FROM szobrok
+SELECT szobrok.hely, szobrok.szemely, szobrok.avatas - alktok.szulEv FROM szobrok
 INNER JOIN kapcsolatok ON szobrok.id = kapcsolatok.szoborId
 INNER JOIN alkotok ON kapcsolatok.alkotoId = alkotok.id
 WHERE nev LIKE 'Medgyessy Ferenc';
