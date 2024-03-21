@@ -99,7 +99,8 @@ Mely településeken kapott mellszobrot „Erkel Ferenc” és „Liszt Ferenc�
 ![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/d3a59648-4433-4920-918e-178b85fff518)
 
 ## 12. feladat 
-Készítsen lekérdezést a debreceni mellszobor alkotókról, melyben megszámolja, hogy egyes alkótók mennyi szobrot csináltak és ez alapján csökkenő sorrendbe rendezi őket!
+Készítsen lekérdezést a debreceni mellszobor alkotókról, melyben megszámolja, hogy egyes alkótók mennyi szobrot csináltak és ez alapján csökkenő sorrendbe rendezi őket.
+3-nél több eredmény ne jelenjen meg.
 
 ![image](https://github.com/GerencserOliver/AdatbazisProject/assets/98750706/a1c4bfcd-0b58-479b-83d7-0bd8195e6370)
 
